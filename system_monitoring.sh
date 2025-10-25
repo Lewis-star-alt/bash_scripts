@@ -11,6 +11,7 @@ NR>1 {
     usage = $5+0
     if (usage > 90) printf "\033[1;31m"    # красный если >90%
     else if (usage > 80) printf "\033[1;33m" # желтый если >80%
+    else printf "\33[1;32m"
     print $0 "\033[0m"
 }'
 
