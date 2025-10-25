@@ -61,7 +61,7 @@
 
 1. **Клонируйте репозиторий:**
 ```bash
-git clone <repository-url>
+git clone https://github.com/Lewis-star-alt/bash_scripts
 cd bash-utilities
 ```
 
